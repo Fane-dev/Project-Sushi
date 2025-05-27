@@ -1,0 +1,32 @@
+/* .footer-container{
+    box-sizing: border-box;
+    height: 10%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+} */
+.footer-container {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto; /* 🔑 Spinge il footer in basso */
+  padding: 1.2em 0;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #e9e900;
+  font-weight: bold;
+}

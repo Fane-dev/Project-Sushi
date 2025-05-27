@@ -1,0 +1,41 @@
+<header id="header">
+    <div class="first-container">
+       <img class="sushi-logo" src="assets/images/sushiWorld.png" alt="sushi-logo" (click)="onClick('')"/>
+       <h3 class="title"(click)="onClick('')">Sushi World</h3>
+
+    </div>
+    <div class="searchbar-container">
+        <input class="input-search" type="text" placeholder="Find Product" [(ngModel)]="searchProduct">
+        <button class="search-button" (click)="filteredProducts()">Search</button>
+    </div>
+    <div class="second-container">
+        @if (!isLogged) {
+            <p class="navigation" (click)="onClick('login')">Login</p>
+        }
+        @else if(isLogged){
+            <p class="navigation" (click)="onClick('gestione')">Admin</p>
+        }
+        <p class="navigation" (click)="onClick('menu')">Menu</p>
+        <p class="navigation" (click)="onClick('about')">About</p>
+        <div class="cart">
+            <p class="navigation" (click)="onClick('cart')">Cart</p>
+            <div class="notifica">
+                <p class="number">{{generalCounter}}</p>
+            </div>
+        </div>
+        @if (isLogged) {
+            <p class="navigation" (click)="logOut()">Logout</p>
+            @if (showLogOut) {
+                <div class="logout-screen">
+                    <div class="card-logout">
+                        <p class="p-confirm">Sei sicuro di voler uscire?</p>
+                        <div class="buttons-confirm">
+                            <button class="back-button" (click)="goBack()">No</button>
+                            <button class="confirm-button" (click)="confirmLogOut()">Si</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</header>
