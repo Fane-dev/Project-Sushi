@@ -11,10 +11,10 @@ cd sushi-project
 
 go to file properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/sushi_db
-spring.datasource.username=root
-spring.datasource.password=tuapassword
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/sushi_db  
+spring.datasource.username=root  
+spring.datasource.password=tuapassword  
+spring.jpa.hibernate.ddl-auto=update  
 
 2. Start the Spring Boot application::
 
