@@ -3,20 +3,20 @@ A full-stack application for managing a sushi restaurant, with a backend develop
 
 # 🚀 How to Run the Project
 1. Clone the repository:  
-git clone https://github.com/tuo-utente/sushi-project.git
-cd sushi-project
+git clone https://github.com/tuo-utente/sushi-project.git  
+cd project-sushi
 
 # ▶️ Starting the Backend (Spring Boot)
-1. Configure the database: Edit the application.properties (or application.yml) file with your database credentials:
+1.  Configure the database: Edit the application.properties (or application.yml) file with your database credentials:  
 
-go to file properties
+go to file properties  
 
 spring.datasource.url=jdbc:mysql://localhost:3306/sushi_db  
 spring.datasource.username=root  
 spring.datasource.password=tuapassword  
-spring.jpa.hibernate.ddl-auto=update  
+spring.jpa.hibernate.ddl-auto=update
 
-2. Start the Spring Boot application::
+2.  Start the Spring Boot application::
 
 cd backend  
 ./mvnw spring-boot:run
