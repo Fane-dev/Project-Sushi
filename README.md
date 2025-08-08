@@ -18,16 +18,16 @@ spring.jpa.hibernate.ddl-auto=update
 
 2. Start the Spring Boot application::
 
-cd backend
+cd backend  
 ./mvnw spring-boot:run
 
 # ▶️ Starting the Frontend (Angular)
-1. Installa le dipendenze:
-cd frontend
-npm install
+1. Install dependencies::  
+cd frontend  
+npm install  
 
-2. Run the Angular application:
-ng serve
+2. Run the Angular application:  
+ng serve  
 
 # 🛠 Main Features
 
