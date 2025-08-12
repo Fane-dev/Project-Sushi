@@ -3,7 +3,7 @@ A full-stack application for managing a sushi restaurant, with a backend develop
 
 # 🚀 How to Run the Project
 1. Clone the repository:  
-git clone https://github.com/tuo-utente/sushi-project.git  
+git clone https://github.com/Fane-dev/Project-Sushi
 cd project-sushi
 
 # ▶️ Starting the Backend (Spring Boot)
